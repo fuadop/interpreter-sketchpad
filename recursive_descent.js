@@ -218,7 +218,7 @@ class Parser {
 	}
 }
 
-const input = '1 + 2 * 3';
+const input = '1 * 2 + 3';
 const lexer = new Lexer(input);
 const parser = new Parser(lexer);
 
